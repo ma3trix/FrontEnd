@@ -1,0 +1,93 @@
+/* Style for the body element */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the header element */
+header {
+  background-color: #9333ea;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for h1 and p elements */
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Style for img elements */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* Style for table elements */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #9333ea;
+  color: white;
+}
+
+/* Style for nav and nav a elements */
+nav {
+  background-color: #9333ea;
+  overflow: hidden;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style for the footer element */
+footer {
+  background-color: #9333ea;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for the animal-link class */
+.animal-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.animal-link img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
